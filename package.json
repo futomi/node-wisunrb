@@ -1,0 +1,44 @@
+{
+  "name": "node-wisunrb",
+  "version": "0.1.0",
+  "description": "node-wisunrb は Wi-SUN ECHONET Profile for Route B に対応した USB ドングルを経由して家庭用電力量スマートメーター (低圧スマート電力量メーター) にアクセスします。ECHONET Lite 規格の「低圧スマート電力量メータクラス」に規定されたすべてのプロパティをサポートします。",
+  "main": "./lib/wisunrb.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Wi-SUN",
+    "ECHONET",
+    "Route B",
+    "Energy meter",
+    "ROHM",
+    "RATOC Systems",
+    "Bルート",
+    "スマートメーター",
+    "HEMS",
+    "ローム",
+    "ラトックシステムズ",
+    "RS-WSUHA",
+    "BP35C2",
+    "テセラ",
+    "TESSERA",
+    "RL7023"
+  ],
+  "homepage": "https://github.com/futomi",
+  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futomi/node-wisunrb.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "serialport": "^11.0.0"
+  }
+}
